@@ -1,4 +1,4 @@
-# STM32L432KCU^ Development Toolchain
+# STM32L432KCU6 Development Toolchain
 
 This repository contains example code and documentation for interfacing protocols with the STM32F411RE microcontroller. The STM32F411RE is a powerful ARM Cortex-M4 microcontroller and supports various communication protocols for seamless interaction with other devices and systems.
 
