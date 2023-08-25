@@ -84,7 +84,7 @@ minicom
 ```
 if you have configured the default port correctly, and your target is attached.
 
-To begin using these interfacing protocols with the STM32F411RE microcontroller, follow these steps:
+To begin using these interfacing protocols with the STM32FL432KC microcontroller, follow these steps:
 
 Clone this repository to setup your environment:
 
