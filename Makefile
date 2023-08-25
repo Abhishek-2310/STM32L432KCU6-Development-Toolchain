@@ -135,6 +135,8 @@ SRCS   += $(HAL_SRC)/$(HAL_PREFIX)_hal_rcc.c \
           $(HAL_SRC)/$(HAL_PREFIX)_hal_dac_ex.c \
           $(HAL_SRC)/$(HAL_PREFIX)_hal_dma.c \
           $(HAL_SRC)/$(HAL_PREFIX)_hal_spi.c \
+          $(HAL_SRC)/$(HAL_PREFIX)_hal_i2c.c \
+          $(HAL_SRC)/$(HAL_PREFIX)_hal_i2c_ex.c \
           $(HAL_SRC)/$(HAL_PREFIX)_hal_tim.c \
           $(HAL_SRC)/$(HAL_PREFIX)_hal_tim_ex.c \
           $(HAL_SRC)/$(HAL_PREFIX)_hal_flash.c \
