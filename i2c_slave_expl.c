@@ -12,7 +12,7 @@
 
 extern UART_HandleTypeDef huart2;
 
-void I2CMasterInit(void *data)
+void I2CSlaveInit(void *data)
 {
 
   /* Place Initialization things here.  This function gets called once
@@ -22,7 +22,7 @@ void I2CMasterInit(void *data)
 
 }
 
-void I2CMasterTask(void *data)
+void I2CSlaveTask(void *data)
 {
 
   /* Place your task functionality in this function.  This function
@@ -31,14 +31,14 @@ void I2CMasterTask(void *data)
    */
 }
 
-ADD_TASK(I2CMasterTask,  /* This is the name of the function for the task */
-	 I2CMasterInit,  /* This is the initialization function */
+ADD_TASK(I2CSlaveTask,  /* This is the name of the function for the task */
+	 I2CSlaveInit,  /* This is the initialization function */
 	 NULL,         /* This pointer is passed as 'data' to the functions */
 	 0,            /* This is the number of milliseconds between calls */
 	 "This is the help text for the task")
   
 
-ParserReturnVal_t I2CMasterExample(int mode)
+ParserReturnVal_t I2CSlaveExample(int mode)
 {
   if(mode != CMD_INTERACTIVE) return CmdReturnOk;
 
@@ -53,4 +53,4 @@ ParserReturnVal_t I2CMasterExample(int mode)
   return CmdReturnOk;
 }
 
-ADD_CMD("i2c_master",I2CMasterExample,"          I2C Master Command")
+ADD_CMD("i2c_slave",I2CSlaveExample,"          I2C Slave Command")
