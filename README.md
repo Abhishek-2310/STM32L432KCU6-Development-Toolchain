@@ -9,8 +9,6 @@ This repository provides instructions and resources for setting up a development
 
 ## Supported Protocols
 
-This repository provides examples and documentation for the following communication protocols:
-
 - [SPI (Serial Peripheral Interface)](./SPI)
 - [I2C (Inter-Integrated Circuit)](./I2C)
 - [UART (Universal Asynchronous Receiver-Transmitter)](./UART)
