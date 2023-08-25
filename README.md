@@ -1,6 +1,6 @@
 # STM32L432KCU6 Development Toolchain
 
-This repository contains example code and documentation for interfacing protocols with the STM32F411RE microcontroller. The STM32F411RE is a powerful ARM Cortex-M4 microcontroller and supports various communication protocols for seamless interaction with other devices and systems.
+This repository provides instructions and resources for setting up a development toolchain for the STM32L432KCU6 microcontroller. The toolchain includes the necessary software and configurations to develop, build, and flash firmware onto the STM32L432KCU6 microcontroller.
 
 ## Table of Contents
 
@@ -89,12 +89,5 @@ To begin using these interfacing protocols with the STM32F411RE microcontroller,
 Clone this repository to setup your environment:
 
    ```sh
-   git clone https://github.com/Abhishek-2310/STM32F411RE-Interfacing-Protocols.git
+   git clone https://github.com/Abhishek-2310/STM32L432KCU6-Development-Toolchain.git
    ```
-## Things to Note
-### SSD1331 OLED DISPLAY SPI CONNECTIONS
-<p align="center">
-   <img src = "https://github.com/Abhishek-2310/STM32F411RE-Interfacing-Protocols/blob/master/pics/stm32_spi_conn.jpg" width = "450" height = "300">
-   <img src = "https://github.com/Abhishek-2310/STM32F411RE-Interfacing-Protocols/blob/master/pics/oled.jpg" width = "300" height = "300"><br>
-   PA5->SCK, PA7->MOSI, PA8-> RES, PA9->CS, PA10->DC 
-</p>
