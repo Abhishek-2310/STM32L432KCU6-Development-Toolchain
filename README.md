@@ -1,4 +1,4 @@
-# STM32L432KCU6 Development Toolchain
+# STM32L432KCU6 ARM GCC Development Toolchain
 
 This repository provides instructions and resources for setting up a development toolchain for the STM32L432KCU6 microcontroller. The toolchain includes the necessary software and configurations to develop, build, and flash firmware onto the STM32L432KCU6 microcontroller.
 
